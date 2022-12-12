@@ -1,6 +1,5 @@
 import { Box, Flex, HStack, Img, Stack, VStack } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
-import theme from "../../theme/chakra";
 import { CateDetailsType } from "../../types";
 import { StartRating } from "../StartRating/StartRating";
 
@@ -49,7 +48,7 @@ export const CateListItem = ({ data }: CateListItemProps) => {
           <Stack direction={{ base: "column", md: "row" }}>
             <HStack pr={4}>
               <Box>dog friendly :</Box>
-              <StartRating rating={3.5} />
+              <StartRating rating={breeds[0].dog_friendly} />
             </HStack>
             <HStack>
               <Box>energy_level :</Box>

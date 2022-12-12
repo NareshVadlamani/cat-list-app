@@ -1,4 +1,3 @@
-import { Switch } from "@chakra-ui/react";
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { CatDetails } from "./Components/CatDetails/CatDetails";

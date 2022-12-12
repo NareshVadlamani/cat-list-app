@@ -1,5 +1,3 @@
-import { Flex } from "@chakra-ui/layout";
-import { FaStar, FaStarHalf } from "react-icons/fa";
 import StarRatings from "react-star-ratings";
 
 type StartRatingProps = {

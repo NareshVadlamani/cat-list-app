@@ -18,7 +18,7 @@ export const CatDetails = () => {
         setCateDetails(data);
       }
     );
-  }, []);
+  }, [catId]);
 
   return (
     <HStack py={8} alignItems="flex-start">
